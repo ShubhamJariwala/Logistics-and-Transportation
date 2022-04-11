@@ -1,0 +1,42 @@
+
+
+.select2-container {
+    width: 100% !important;
+}
+
+.select2-hidden-accessible {
+    display: none !important;
+}
+
+.Pager span {
+    color: #333;
+    background-color: #F7F7F7;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    line-height: 150%;
+    border: 1px solid #ccc;
+}
+
+.Pager a {
+    text-align: center;
+    display: inline-block;
+    width: 25px;
+    border: 1px solid #ccc;
+    color: #fff;
+    color: #333;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    line-height: 150%;
+    text-decoration: none;
+}
+
+.bg-img1 {
+    background-image: url(/assets/Template1/images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}

@@ -1,0 +1,70 @@
+.animate-charcter {
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #03acaf 0%, #000000 29%, #28a745 67%, #0026ff 100% );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+.custom-special-button {
+    letter-spacing: 0.15em;
+}
+
+.special-button-success {
+    background-color: #28a745;
+}
+
+    .special-button-success:hover {
+        background-color: rgba(40,167,69,.85);
+    }
+
+.footer-logo {
+    text-align: center;
+}
+
+.footer-logo img {
+    max-height: 100px;
+}
+
+.custom-footer-link > ul > li > i {
+    color: #ff4f01;
+}
+.logoPanel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 30%;
+    box-sizing: border-box;
+    float:left;
+}
+
+.navPanel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 0 30px;
+    border-bottom: 1px solid #dddddd;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.buttonPanel {
+    display: flex;
+    align-items: stretch;
+    width: 100%;
+}

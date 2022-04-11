@@ -1,0 +1,22 @@
+.progressLoader {
+    font-family: Arial;
+    font-size: 10pt;
+    /*border: 5px solid #67CFF5;*/
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: White;
+    z-index: 1050;
+    top: 0%;
+    left: 0%;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    background-color: #697e93;
+    text-align: center;
+}
+
+.ProgressImage {
+    margin-top: 360px;
+    width: 150px;
+}
